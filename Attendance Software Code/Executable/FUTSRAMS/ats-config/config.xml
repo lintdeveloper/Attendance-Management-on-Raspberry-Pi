@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Abbasogaji\Documents\NetBeansProjects\AttendanceSystem\dist\AttendanceSystem.jar</jar>
+  <outfile>C:\Users\Abbasogaji\Documents\NetBeansProjects\AttendanceSystem\dist\FUTSRAS-AttendanceManager.exe</outfile>
+  <errTitle>You need to install Java</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\Abbasogaji\Documents\CorelD\nsfjnsj.ico</icon>
+  <singleInstance>
+    <mutexName>FUTSRAS-AttendanceManager</mutexName>
+    <windowTitle>FUTSRAS-AttendanceManager</windowTitle>
+  </singleInstance>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0.0</txtFileVersion>
+    <fileDescription>Attendance Managment Software for SRAS attendance device</fileDescription>
+    <copyright>FUTMINNA</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0.0</txtProductVersion>
+    <productName>FUTSRAS-AttendanceManager</productName>
+    <companyName>Abbas Yunusa Ogaji</companyName>
+    <internalName>FUTSRAS-AttendanceManager</internalName>
+    <originalFilename>FUTSRAS-AttendanceManager.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+  <messages>
+    <startupErr>An error occurred while starting the application.</startupErr>
+    <bundledJreErr>This application was configured to use a bundled Java Runtime Environment but the runtime is missing or corrupted.</bundledJreErr>
+    <jreVersionErr>This application requires a Java Runtime Environment atleast Version 1.8.0</jreVersionErr>
+    <launcherErr>The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.</launcherErr>
+    <instanceAlreadyExistsMsg>An application instance is already running.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>

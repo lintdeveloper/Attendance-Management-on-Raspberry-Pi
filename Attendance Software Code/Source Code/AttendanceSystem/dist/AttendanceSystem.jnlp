@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AttendanceSystem.jnlp">
+  <information>
+    <title>AttendanceSystem</title>
+    <vendor>Abbasogaji</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AttendanceSystem.jar" size="726813" download="eager" />
+    <jar href="lib\abaezSqlGeneratorV2.jar" size="4763" download="eager" />
+    <jar href="lib\commons-codec-1.4.jar" size="58160" download="eager" />
+    <jar href="lib\dom4j-1.6.1.jar" size="313898" download="eager" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2401594" download="eager" />
+    <jar href="lib\json-simple-1.1.1.jar" size="23737" download="eager" />
+    <jar href="lib\poi-3.9-20121203.jar" size="1869113" download="eager" />
+    <jar href="lib\poi-ooxml-3.9-20121203.jar" size="936648" download="eager" />
+    <jar href="lib\poi-ooxml-schemas-3.9-20121203.jar" size="4802621" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.21.0.jar" size="6672489" download="eager" />
+    <jar href="lib\xmlbeans-2.3.0.jar" size="2666695" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AttendanceSystem" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="attendance.system.AttendanceSystem"  name="AttendanceSystem" />
+  <update check="always"/>
+</jnlp>

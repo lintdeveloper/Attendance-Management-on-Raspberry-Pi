@@ -1,0 +1,28 @@
+{
+	"fingerprints": [
+
+			[
+				"m1300861",
+				[2,3,4,5,4,2,1,2,3,4,5,3,2,23,4,4,4],
+				"rfrfrfrfrgfrmgkgmtkgmtgktmggmktgmtgktmg"
+			],
+            [
+				"m2300323",
+				[3,5637,4776,44545,224,2,21,2,32,146,57,38,29,293,8,47,648,74],
+				"sdsddfTGRGTGGGTGTGTGTGDFEEF"
+			],
+            [
+				"m1500854",
+				[3,57,46,45,24,2,21,2,32,14,57,38,29,23,8,47,68,74],
+				"frfrfrfrfrfrfgfgtgtgtgtgthththyhokkhmgohhlmm"
+			]
+
+	],
+	"total_size": 12045,
+	"lecture_details": [
+			"CPE541",
+			"Introduction to computer programming",
+			2.3
+
+	]
+}

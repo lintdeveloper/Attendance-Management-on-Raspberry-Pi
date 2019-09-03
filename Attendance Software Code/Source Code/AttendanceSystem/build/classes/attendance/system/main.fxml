@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="573.0" prefWidth="1020" style="-fx-background-color: #d50000;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="attendance.system.MainController">
+   <children>
+      <ImageView fitHeight="591.0" fitWidth="1019.0" opacity="0.15" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/vector1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="613.0" fitWidth="1019.0" opacity="0.18" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/background.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#f2efef" layoutX="63.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CPE500 Attendance Management System" textAlignment="CENTER" wrappingWidth="502.7499711588025">
+         <font>
+            <Font name="Calibri Bold" size="36.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="607.0" layoutY="84.0" prefHeight="439.0" prefWidth="344.0" style="-fx-background-color: #ffffff;">
+         <effect>
+            <DropShadow color="#393737" />
+         </effect>
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="345.0" spacing="20.0">
+               <children>
+                  <Label text="Administrative Login" textFill="#171717">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIconView fill="#940808" glyphName="USER" size="60" />
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </VBox>
+            <VBox alignment="TOP_CENTER" layoutX="-7.0" layoutY="175.0" prefHeight="163.0" prefWidth="355.0" spacing="20.0">
+               <children>
+                  <JFXComboBox fx:id="attendanceMode" prefHeight="25.0" prefWidth="360.0" promptText="Choose Attendance Mode" />
+                  <JFXTextField fx:id="username" prefHeight="25.0" prefWidth="291.0" promptText="Enter Username" />
+                  <JFXPasswordField fx:id="password" prefHeight="25.0" prefWidth="292.0" promptText="Enter Password">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </JFXPasswordField>
+                  <JFXButton fx:id="loginButton" onAction="#handleLoginAction" prefHeight="35.0" prefWidth="116.0" style="-fx-background-color: #e53935;" text="login" textFill="WHITE" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </VBox>
+            <Hyperlink layoutX="123.0" layoutY="395.0" text="Forgot password?" textFill="#680c0c" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="65.0" layoutY="181.0" prefHeight="95.0" prefWidth="501.0" text="Thanks for installing our Attendance management Software, &#10;The attendance management software is only functional when&#10; there is a wireless connection with the attendance device" textAlignment="CENTER" textFill="#fcfcfc">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="63.0" layoutY="294.0" prefHeight="241.0" prefWidth="477.0">
+         <children>
+            <Separator layoutY="-9.0" prefHeight="30.0" prefWidth="477.0" />
+            <Label fx:id="connectionStatusLabel" layoutX="117.0" layoutY="21.0" text="Establashing Connection with Device ..." textFill="#fcfcfc">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <HBox layoutX="2.0" layoutY="56.0" prefHeight="185.0" prefWidth="477.0">
+               <children>
+                  <FontAwesomeIconView fill="WHITE" glyphName="LAPTOP" size="100" wrappingWidth="150.0" />
+                  <Pane prefHeight="200.0" prefWidth="167.0">
+                     <children>
+                        <Circle fx:id="circ3" fill="#f7f5f5" layoutX="125.0" layoutY="45.0" radius="4.0" stroke="#fcf9f9" strokeType="INSIDE" />
+                        <Circle fx:id="circ1" fill="#f7f5f5" layoutX="43.0" layoutY="45.0" radius="4.0" stroke="#fcf9f9" strokeType="INSIDE" />
+                        <Circle fx:id="circ2" fill="#f7f5f5" layoutX="84.0" layoutY="45.0" radius="4.0" stroke="#fcf9f9" strokeType="INSIDE" />
+                        <Separator fx:id="connectionLine" layoutX="-56.0" layoutY="40.0" prefHeight="5.0" prefWidth="276.0" style="-fx-background-color: #ffffff;" visible="false" />
+                     </children>
+                  </Pane>
+                  <FontAwesomeIconView fill="WHITE" glyphName="SERVER" layoutX="10.0" layoutY="96.0" size="100" textAlignment="RIGHT" wrappingWidth="150.0" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

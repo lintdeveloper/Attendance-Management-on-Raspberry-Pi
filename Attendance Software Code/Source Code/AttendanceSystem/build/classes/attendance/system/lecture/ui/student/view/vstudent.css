@@ -1,0 +1,27 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.courseColumn{
+    -fx-font-size: 16px;
+    -fx-border-style:none;
+}
+.courseColumn .label, .courseTable .column-header{
+    -fx-text-fill:white;
+    -fx-background-color: #4caf50; 
+}
+.courseTable{
+    -fx-table-border-style:none;
+}
+.btnSearch{
+    -fx-background-color: #0d47a1;
+}
+.tagLabel{
+    -fx-text-fill:  #485868;
+}
+.comboB{
+    -fx-font-size: 16px;
+}

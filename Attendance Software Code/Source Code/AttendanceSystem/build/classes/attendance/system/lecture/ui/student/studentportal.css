@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-Mar-2018, 11:25:08
+    Author     : Abbasogaji
+*/
+
+.viewbtn, .regbtn, .managebtn{
+    -fx-cursor:hand;
+    -fx-text-fill: white;
+
+}
+.regbtn{
+   -fx-background-color: #8bc34a;
+
+}
+.managebtn{
+   -fx-background-color: #ff9800;
+}
+
+.viewbtn{
+  -fx-background-color: #03a9f4;   
+}
+.regbtn:hover, .viewbtn:hover, .managebtn:hover{
+     -fx-border-width:2px;
+    -fx-border-color: #860909;
+    -fx-text-fill:black;
+    -fx-background-color:white;
+}

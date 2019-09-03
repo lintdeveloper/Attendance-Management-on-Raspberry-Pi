@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-Mar-2018, 11:17:55
+    Author     : Abbasogaji
+*/
+.courseColumn{
+    -fx-font-size: 16px;
+    -fx-border-style:none;
+}
+.courseColumn .label, .courseTable .column-header{
+    -fx-text-fill:white;
+    -fx-background-color: #b71c1c; 
+}
+.courseTable{
+    -fx-table-border-style:none;
+}
+

@@ -1,0 +1,32 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+   -fx-border-style:solid;
+   -fx-border-width: 2px;
+   -fx-border-color: #860909;
+}
+.tab{
+    -fx-pref-width: 250px;
+    -fx-pref-height: 50px;
+    -fx-background-color: #860909;
+}
+.tab-header{
+    -fx-pref-height: 50px;
+}
+.tab-header-background{
+   -fx-background-color: #860909;
+}
+.pageLabel, .pageHeader{
+    -fx-background-color: #b71c1c;
+}
+.studLabel{
+    -fx-background-color: #ffffff;
+}
+.requestbtn{
+    -fx-background-color: #4f94cd;
+}
+.studButton{
+    -fx-background-color: #43a047;
+}

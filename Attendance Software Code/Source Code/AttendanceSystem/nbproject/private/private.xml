@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/server/Command.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/lecture/ui/courselist/CourseListController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/lecture/ui/live/LectureRunningController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/lecture/ui/report/send/SendReportController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/tools/InputData.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/lecture/ui/live/LectureLiveController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/exam/ui/live/ExamliveController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/lecture/ui/report/LectureReportController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/exam/ExamModeConfig.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/exam/ui/main/MainController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/lecture/ui/student/view/VstudentController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/lecture/ui/addcourse/AddCourseController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/student/ui/main/StudentMainController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/model/AttendanceReport.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/InitController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/dbconfig/DatabaseHandler.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/dbconfig/DbTables.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/lecture/ui/student/list/studentList.fxml</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/navigation/NavController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/server/AppServer.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/navigation/NavDisabler.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/AttendanceSystem.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/dbconfig/DbSqliteConstants.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/lecture/lectureModeConfig.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/navigation/LectureModeNavigation.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/MainController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/lecture/ui/report/receive/ReceiveReportController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/lecture/ui/student/StudentPortalController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/lecture/ui/student/list/StudentListController.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/model/Attendance.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/model/Courses.java</file>
+            <file>file:/C:/Users/Abbasogaji/Documents/NetBeansProjects/AttendanceSystem/src/attendance/system/lecture/ui/main/LectureMainController.java</file>
+        </group>
+    </open-files>
+</project-private>

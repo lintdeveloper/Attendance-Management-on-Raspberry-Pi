@@ -1,0 +1,13 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+#stackPane{
+    -fx-border-radius: 20;
+}
+.jfx-button:hover{
+	-fx-background-color: #e57373;
+}

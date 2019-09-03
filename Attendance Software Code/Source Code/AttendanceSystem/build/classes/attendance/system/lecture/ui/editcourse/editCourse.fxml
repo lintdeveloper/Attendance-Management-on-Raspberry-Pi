@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="attendance.system.lecture.ui.editcourse.EditCourseController">
+    <stylesheets>
+        <URL value="@editcourse.css" />
+    </stylesheets>
+   <children>
+      <VBox prefHeight="548.0" prefWidth="656.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="17.0" prefWidth="917.0" text="Edit Course" textAlignment="CENTER">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView glyphName="EDIT" size="22" wrappingWidth="25.0" />
+               </graphic>
+            </Label>
+            <Separator prefHeight="23.0" prefWidth="918.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Separator>
+            <HBox prefHeight="120.0" prefWidth="180.0" spacing="40.0">
+               <children>
+                  <JFXTextField fx:id="ccode" focusColor="#3cb248" labelFloat="true" prefHeight="50.0" prefWidth="300.0" promptText="Enter Course Code" style="-fx-background-color: WHITE;" unFocusColor="#6b0f0f">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXComboBox fx:id="cload" focusColor="#3cb248" prefHeight="50.0" prefWidth="300.0" promptText="Select Credit Load" style="-fx-background-color: WHITE;" styleClass="comboBoxFont" unFocusColor="#720f0f" />
+               </children>
+               <padding>
+                  <Insets top="30.0" />
+               </padding>
+            </HBox>
+            <VBox alignment="CENTER" prefHeight="307.0" prefWidth="628.0" spacing="40.0">
+               <children>
+                  <JFXTextField fx:id="ctitle" focusColor="#3cb248" labelFloat="true" prefHeight="51.0" prefWidth="636.0" promptText="Enter Course Title" style="-fx-background-color: WHITE;" unFocusColor="#720f0f">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXComboBox fx:id="cduration" focusColor="#3cb248" labelFloat="true" prefHeight="50.0" prefWidth="636.0" promptText="Select Number of Weeks" style="-fx-background-color: WHITE;" styleClass="comboBoxFont" unFocusColor="#720f0f" />
+                  <JFXButton alignment="CENTER" onAction="#handleSaveEditAction" prefHeight="57.0" prefWidth="214.0" style="-fx-background-color: #1976d2;" text="Save" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView fill="#f2eeee" glyphName="CHECK_CIRCLE" size="18" wrappingWidth="20.0" />
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
